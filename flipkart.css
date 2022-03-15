@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: rgb(230, 239, 248);
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+
+    display: flex;
+    background-color: #2874f0;
+    height: 100px;
+    border: solid;
+    border-radius: 5px;
+    border-color: #2874f0;
+
+
+}
+
+nav ul {
+    display: flex;
+    justify-items: start;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+
+}
+.list {
+
+    color: white;
+list-style-type: none;
+font-weight: bold;
+
+}
+
+li{
+    padding: 0 20px;
+    margin: auto 40px;
+}
+img {
+    width: 120px;
+    padding: 0 20px;
+}
+a:hover{
+    color: blue;
+    text-decoration: none;
+
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+.search {
+    display: flex;
+    align-items: center;
+    padding: 0 150px;
+}
+#sani {
+    padding: 0 10px;
+      width: 400px;
+      height: 30px;
+      border-radius: 5px;
+      border-color: #2874f0;
+      
+}
+.submit_button {
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+
+#button_bar {
+    background-color: #2874f0;
+    color: white;
+    width: 60px;
+    height: 30px;
+    border-radius: 8px;
+    border-color: white;
+
+}
+
+#button_bar :hover {
+    color: blue;
+
+}
+
+.image_center {
+    padding: 0 280px;
+    margin: 20px auto;
+}
+#new {
+    width: 900px;
+
+}
+
+.card {
+    padding: 0 40px;
+    margin: 50px auto;
+}
+
+.card_item {
+    display: flex;
+    padding: 0 130px;
+    margin: 0 10px;
+}
+
+.text-center {
+    text-align: center;
+    padding: 30px auto;
+
+}
+.kumar {
+    display: flex;
+    flex-direction: column;
+}
+.footers {
+    display: flex;
+    align-items: center;
+    background-color: #2874f0;
+    height: 100px;
+    padding: 0 620px;
+}
+
+.follow {
+    background-color: rgb(41, 36, 36);
+    color: white;
+    display: flex;
+    font-size: 30px;
+    align-items: center;
+    padding: 30px;
+    height: 30px;
+
+}
